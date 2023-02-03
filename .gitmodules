@@ -1,0 +1,9 @@
+[submodule "WebBackend"]
+	path = WebBackend
+	url = https://github.com/C01-GlucoseGuardian/WebBackend
+[submodule "webfrontend"]
+	path = webfrontend
+	url = https://github.com/C01-GlucoseGuardian/web
+[submodule "mobileapp"]
+	path = mobileapp
+	url = https://github.com/C01-GlucoseGuardian/mobileapp
