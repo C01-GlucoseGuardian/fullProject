@@ -18,7 +18,7 @@ before_install:
   - psql -c 'create database travis_ci_test;' -U postgres
   # use travis configuration
   - cd WebBackend
-  - cp -f /src/main/resources/application.properties.travis src/main/resources/application.properties
+  - cp -f src/main/resources/application.properties.travis src/main/resources/application.properties
   - chmod +x mvnw
   - ./mvnw compile
   - ./mvnw spring-boot:run &
