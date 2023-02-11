@@ -1,0 +1,29 @@
+os: linux
+
+language:
+  - java
+  - node_js
+
+jdk: openjdk17
+
+node_js:
+  - "18"
+
+dist: jammy #ubuntu 22.04
+
+services: postgresql # postgres 14.5+
+
+before_install:
+  # Create test database
+  - psql -c 'create database travis_ci_test;' -U postgres
+  # use travis configuration
+  - cp -f WebBackend/src/main/resources/application.properties.travis WebBackend/src/main/resources/application.properties
+  - cd WebBackend && chmod +x mvnw && ./mvnw spring-boot:run &
+  # use localhost api endpoint
+  - echo export "const API_URL = \"http://localhost:8080\";" > webfrontend/src/js/config.js
+  - cd webfrontend && npm install && npm run start &
+  - sleep 30s
+  - cd functional-tests
+
+script:
+  - mvn test
