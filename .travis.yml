@@ -17,13 +17,18 @@ before_install:
   # Create test database
   - psql -c 'create database travis_ci_test;' -U postgres
   # use travis configuration
-  - cp -f WebBackend/src/main/resources/application.properties.travis WebBackend/src/main/resources/application.properties
-  - cd WebBackend && chmod +x mvnw && ./mvnw compile && ./mvnw spring-boot:run &
+  - cd WebBackend
+  - cp -f /src/main/resources/application.properties.travis src/main/resources/application.properties
+  - chmod +x mvnw
+  - ./mvnw compile
+  - ./mvnw spring-boot:run &
   # use localhost api endpoint
-  - echo export "const API_URL = \"http://localhost:8080\";" > webfrontend/src/js/config.js
-  - cd webfrontend && npm install && npm run start &
+  - cd ../webfrontend
+  - echo "export const API_URL = \"http://localhost:8080\";" > src/js/config.js
+  - npm install
+  - npm run start &
   - sleep 10s
-  - cd functional-tests
+  - cd ../functional-tests
 
 script:
   - mvn test
