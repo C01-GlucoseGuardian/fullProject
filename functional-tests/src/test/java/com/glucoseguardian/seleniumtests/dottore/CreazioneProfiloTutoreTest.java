@@ -214,10 +214,4 @@ public class CreazioneProfiloTutoreTest extends AbstractSeleniumTest {
   }
 
 
-  @AfterEach
-  public void tearDown() {
-    driver.quit();
-  }
-
-
 }
