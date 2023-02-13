@@ -30,7 +30,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC51() throws Exception {
+  public void testTC5_1() throws Exception {
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
     new Select(driver.findElement(By.id("sesso"))).selectByVisibleText("Maschio");
@@ -50,7 +50,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC52() throws Exception {
+  public void testTC5_2() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
     new Select(driver.findElement(By.id("sesso"))).selectByVisibleText("Maschio");
@@ -70,7 +70,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC53() throws Exception {
+  public void testTC5_3() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963YQ");
@@ -92,7 +92,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC54() throws Exception {
+  public void testTC5_4() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Martina");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("MRTLDA01L55C514M");
@@ -113,7 +113,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC55() throws Exception {
+  public void testTC5_5() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -133,7 +133,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC56() throws Exception {
+  public void testTC5_6() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -154,7 +154,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC57() throws Exception {
+  public void testTC5_7() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -175,7 +175,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC58() throws Exception {
+  public void testTC5_8() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -196,7 +196,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC59() throws Exception {
+  public void testTC5_9() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -217,7 +217,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC510() throws Exception {
+  public void testTC5_10() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -237,7 +237,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC511() throws Exception {
+  public void testTC5_11() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -259,7 +259,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC512() throws Exception {
+  public void testTC5_12() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -281,7 +281,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC513() throws Exception {
+  public void testTC5_13() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -302,7 +302,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC514() throws Exception {
+  public void testTC5_14() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -324,7 +324,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC515() throws Exception {
+  public void testTC5_15() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -347,7 +347,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC516() throws Exception {
+  public void testTC5_16() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -371,7 +371,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
 
 
   @Test
-  public void testTC517() throws Exception {
+  public void testTC5_17() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -395,7 +395,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC518() throws Exception {
+  public void testTC5_18() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -418,7 +418,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC519() throws Exception {
+  public void testTC5_19() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -441,7 +441,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC520() throws Exception {
+  public void testTC5_20() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -462,7 +462,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC521() throws Exception {
+  public void testTC5_21() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -487,7 +487,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
 
 
   @Test
-  public void testTC522() throws Exception {
+  public void testTC5_22() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -510,7 +510,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC523() throws Exception {
+  public void testTC5_23() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
@@ -533,7 +533,7 @@ public class CreazioneProfiloPazienteTest extends AbstractSeleniumTest {
   }
 
   @Test
-  public void testTC524() throws Exception {
+  public void testTC5_24() throws Exception {
     driver.findElement(By.id("nome")).sendKeys("Matteo");
     driver.findElement(By.id("cognome")).sendKeys("Aldi");
     driver.findElement(By.id("codiceFiscale")).sendKeys("LDAMTT01H09B963Y");
