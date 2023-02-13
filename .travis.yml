@@ -20,7 +20,7 @@ before_install:
   - cd WebBackend
   - cp -f src/main/resources/application.properties.travis src/main/resources/application.properties
   - chmod +x mvnw
-  - ./mvnw compile
+  - ./mvnw compile -DskipTests=true -Dmaven.javadoc.skip=true
   - ./mvnw spring-boot:run &
   # use localhost api endpoint
   - cd ../webfrontend
