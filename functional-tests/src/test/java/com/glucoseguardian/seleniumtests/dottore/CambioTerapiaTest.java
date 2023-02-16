@@ -96,8 +96,8 @@ public class CambioTerapiaTest extends AbstractSeleniumTest {
             + "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
             + "ooooooooooooooooooooooooooooooooooooo");
     driver.findElement(By.id("aggiunta-terapia")).click();
-    driver.findElement(By.id("aggiorna-terapia")).click();
     assertEquals("Il campo note aggiuntive aggiuntive supera i caratteri consentiti", closeAlertAndGetItsText());
+    driver.findElement(By.id("aggiorna-terapia")).click();
   }
 
   @Test
