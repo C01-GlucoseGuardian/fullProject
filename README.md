@@ -1,4 +1,4 @@
-# Glucose Guardian - Test di sistema [![Build Status](https://travis-ci.com/C01-GlucoseGuardian/fullProject.svg?branch=main)](https://travis-ci.com/C01-GlucoseGuardian/web)
+# Glucose Guardian - Test di sistema [![Build Status](https://travis-ci.com/C01-GlucoseGuardian/fullProject.svg?branch=main)](https://travis-ci.com/C01-GlucoseGuardian/fullProject)
 
 ## Introduzione
 Questa repo contiene tutti i componenti del progetto Glucose Guardian come sotto moduli, il suo fine è quello di eseguire i Test di Sistema su Travis in maniera pratica.
